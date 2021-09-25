@@ -1,0 +1,122 @@
+.heading {
+  font-size: 3.8rem;
+  color: #88B04B;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-shadow: 5px 5px black;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: 2px 2px 5px 1px rgb(156 152 152);
+}
+
+.textarea{
+  margin-top: 100px;
+}
+
+textarea{
+  background-color: rgb(41, 40, 40);
+  min-height:20px ;
+  width: 500px;
+  border-radius: 5px;
+  color: lightgrey;
+  font-size: 1rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+textarea:hover{
+  box-shadow: 3px 3px 8px 1px rgb(66, 66, 66);
+}
+
+main{
+  /* display: flex !important;
+  align-items: center;
+  flex-direction: column; */
+  text-align: center;
+  background: url('/Todo/assets/pexels-suzy-hazelwood-1226398.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  margin: -8px;
+}
+
+.add-button{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  background-color: rgb(223, 223, 50);
+  border-radius: 5px;
+  padding: 3px 3px 5px 5px;
+  cursor: pointer;
+}
+
+.add-button:hover{
+  background-color: yellow;
+  box-shadow: 1px 1px 1px 1px rgb(105, 104, 104);
+}
+
+.output-todo{
+  min-height: 70px;
+  width: 700px;
+  background-color: #FF6F61;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border: 2px solid rgb(109, 106, 106);  
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.text-todo{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 1.4rem;
+  position: relative;
+  left: 53px;
+  top: 10px;
+  color: rgb(37, 36, 36);
+  text-align: left;
+}
+
+#container{
+  margin-top: 20px;
+  height: auto;
+  width: auto;
+}
+
+.cross-button {
+  background-color: #e40f0f;
+  height: 25px;
+  width: 25px;
+  position: relative;
+  bottom: 34.5px;
+  right: 338px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: left;
+}
+
+ul{
+  list-style: none;
+}
+
+.list-group{
+  align-items: center;
+}
+
+@media screen and (max-width:540px) {
+  textarea{
+    width: 370px;
+  }
+  .output-todo{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:375px) {
+  textarea{
+    width: 233px;
+  }
+  .output-todo{
+    width: 355px;
+  }
+}
