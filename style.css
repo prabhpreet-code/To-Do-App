@@ -33,7 +33,7 @@ main{
   align-items: center;
   flex-direction: column; */
   text-align: center;
-  background: url('/Todo/assets/pexels-suzy-hazelwood-1226398.jpg');
+  background: url('assets/pexels-suzy-hazelwood-1226398.jpg');
   background-size: cover;
   min-height: 100vh;
   margin: -8px;
